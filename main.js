@@ -18,8 +18,8 @@ console.log(itemContainer);
  * 課題3: li要素を全て取得する
  *   - console.logで取得したDOMの中身を確認する
  */
-const itemContainerLists = itemContainer.querySelectorAll('li');
-console.log(itemContainerLists);
+const itemContainerList = itemContainer.querySelectorAll('li');
+console.log(itemContainerList);
 
 /**
  * 課題4: class値が 'item' の要素を全て取得する
